@@ -17,13 +17,13 @@ function setup ()
     rm -rf "${ROOT_PATH}/External/ios-openssl/include" "External/ios-openssl/lib"
 }
 
-function cleanup () 
+function cleanup ()
 {
     rm -rf "/tmp/openssl"
     rm -rf "/tmp/openssl-*.log"
 }
 
-function build_ssl () 
+function build_ssl ()
 {
     rm -rf "/tmp/openssl"
     cp -r "${ROOT_PATH}/External/openssl" "/tmp/"
@@ -43,7 +43,7 @@ function build_ssl ()
     echo "$LOG"
 
     ./Configure ${HOST} ${CONFIG} --openssldir="/tmp/openssl-${ARCH}" >> "${LOG}" 2>&1
-    perl -i -pe "s|^CC= gcc|CC= ${CLANG} -miphoneos-version-min=${IPHONEOS_DEPLOYMENT_TARGET} -arch ${ARCH} -fembed-bitcode |g" Makefile >> "${LOG}" 2>&1
+    perl -i -pe "s|^CC= gcc|CC= ${CLANG} -miphoneos-version-min=${IPHONEOS_DEPLOYMENT_TARGET} -arch ${ARCH} |g" Makefile >> "${LOG}" 2>&1
     perl -i -pe "s|^CFLAG= (.*)|CFLAG= -isysroot ${SDKROOT} \$1|g" Makefile >> "${LOG}" 2>&1
     make >> "${LOG}" 2>&1
 

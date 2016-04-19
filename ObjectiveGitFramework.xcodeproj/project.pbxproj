@@ -1753,6 +1753,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D0D81865174421EB00995A2E /* iOS-StaticLibrary.xcconfig */;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 				PRODUCT_NAME = "OpenSSL-iOS";
 			};
 			name = Debug;
@@ -1761,6 +1762,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D0D81865174421EB00995A2E /* iOS-StaticLibrary.xcconfig */;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 				PRODUCT_NAME = "OpenSSL-iOS";
 			};
 			name = Release;
@@ -1769,6 +1771,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D0D81865174421EB00995A2E /* iOS-StaticLibrary.xcconfig */;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 				PRODUCT_NAME = "OpenSSL-iOS";
 			};
 			name = Profile;
@@ -1777,6 +1780,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D0D81865174421EB00995A2E /* iOS-StaticLibrary.xcconfig */;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 				PRODUCT_NAME = "libssh2-iOS";
 			};
 			name = Debug;
@@ -1785,6 +1789,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D0D81865174421EB00995A2E /* iOS-StaticLibrary.xcconfig */;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 				PRODUCT_NAME = "libssh2-iOS";
 			};
 			name = Release;
@@ -1793,6 +1798,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D0D81865174421EB00995A2E /* iOS-StaticLibrary.xcconfig */;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 				PRODUCT_NAME = "libssh2-iOS";
 			};
 			name = Profile;
@@ -1922,6 +1928,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"External/libssh2-ios/include/libssh2",
@@ -1957,6 +1964,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D0D81865174421EB00995A2E /* iOS-StaticLibrary.xcconfig */;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Test;
@@ -1965,6 +1973,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D0D81865174421EB00995A2E /* iOS-StaticLibrary.xcconfig */;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 				PRODUCT_NAME = "OpenSSL-iOS";
 			};
 			name = Test;
@@ -1973,6 +1982,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D0D81865174421EB00995A2E /* iOS-StaticLibrary.xcconfig */;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 				PRODUCT_NAME = "libssh2-iOS";
 			};
 			name = Test;
@@ -1986,6 +1996,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"External/libssh2-ios/include/libssh2",
@@ -2018,6 +2029,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"External/libssh2-ios/include/libssh2",
@@ -2050,6 +2062,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
+				ENABLE_BITCODE = NO;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"External/libssh2-ios/include/libssh2",
@@ -2158,6 +2171,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D0D81865174421EB00995A2E /* iOS-StaticLibrary.xcconfig */;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Profile;
@@ -2182,6 +2196,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D0D81865174421EB00995A2E /* iOS-StaticLibrary.xcconfig */;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -2190,6 +2205,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D0D81865174421EB00995A2E /* iOS-StaticLibrary.xcconfig */;
 			buildSettings = {
+				ENABLE_BITCODE = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
